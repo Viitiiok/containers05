@@ -22,13 +22,12 @@ Procesează cererile PHP prin trimiterea lor către containerul PHP
 
 ## Pornirea și testarea
 Am creat rețeaua Docker internal:
-
-bash
-Copy
 docker network create internal
-Am lansat containerul PHP (backend):
+<img width="1078" alt="Screenshot 2025-04-06 at 14 29 33" src="https://github.com/user-attachments/assets/992d2c53-4408-4723-986d-467302dc3cb4" />
 
-Am lansat containerul Nginx (frontend):
+Am lansat containerul PHP (backend)
+Am lansat containerul Nginx (frontend)
+<img width="1130" alt="Screenshot 2025-04-06 at 14 28 41" src="https://github.com/user-attachments/assets/9bbff38d-411f-4c81-a182-00af0749cde7" />
 
 ## Concluzii
 Prin această lucrare am învățat cum să configurăm și să gestionăm interacțiunea între containere Docker. Am stabilit o comunicare eficientă între un server web Nginx și un procesor PHP.
